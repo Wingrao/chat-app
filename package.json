@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A simple chat app created following Andrew Mead's Node.js course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodmon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wingrao/chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wingrao/chat-app/issues"
+  },
+  "homepage": "https://github.com/Wingrao/chat-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
